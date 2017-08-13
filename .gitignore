@@ -1,3 +1,10 @@
 CVS/
 .target
 build/
+*.o
+*.cnplace
+*.asmnplace
+*.hnplace
+Makefilenplace
+as/as
+link/link
