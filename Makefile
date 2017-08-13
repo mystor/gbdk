@@ -52,7 +52,7 @@ ifdef DEBUG
 CFLAGS		:= $(CFLAGS) -g
 endif
 
-SUBDIRS		:= as link maccer
+SUBDIRS		:= as link # maccer
 
 # LCC dir is the root of where LCC will expect to find it's bins, include
 #  files and libraries

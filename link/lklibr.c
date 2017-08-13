@@ -398,9 +398,7 @@ search()
 #ifdef INDEXLIB
 
 /* First entry in the library object symbol cache */
-mlibraryfile libr = {
-	"", NULL, NULL
-};
+mlibraryfile libr;
 
 int fndsym( char *name )
 {
